@@ -38,7 +38,7 @@ jobs:
 
       - name: "Build Sphinx Doc"
         run: |
-          sphinx-build -b html docs build
+          sphinx-build -a -E -b html docs build
 
       # 3. Déploiement sur les Github Pages
 
