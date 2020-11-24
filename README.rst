@@ -16,7 +16,7 @@ F Durand Tests GitHub Actions
         :alt: Documentation Status
 
 .. image:: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs/badge.svg
-        :target: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs/badge
+        :target: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs
         :alt: Code Coverage
 
 
