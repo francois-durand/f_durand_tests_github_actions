@@ -5,12 +5,14 @@ F Durand Tests GitHub Actions
 
 .. image:: https://img.shields.io/pypi/v/f_durand_tests_github_actions.svg
         :target: https://pypi.python.org/pypi/f_durand_tests_github_actions
+        :alt: PyPI Status
 
-.. image:: https://github.com/francois-durand/f_durand_tests_github_actions/workflows/Python%20package/badge.svg
-        :target: https://github.com/francois-durand/f_durand_tests_github_actions/actions
+.. image:: https://github.com/francois-durand/f_durand_tests_github_actions/workflows/build/badge.svg?branch=master
+        :target: https://github.com/francois-durand/f_durand_tests_github_actions/actions?query=workflow%3Abuild
+        :alt: Build Status
 
-.. image:: https://readthedocs.org/projects/f-durand-tests-github-actions/badge/?version=latest
-        :target: https://f-durand-tests-github-actions.readthedocs.io/en/latest/?badge=latest
+.. image:: https://github.com/francois-durand/f_durand_tests_github_actions/workflows/docs/badge.svg?branch=master
+        :target: https://github.com/francois-durand/f_durand_tests_github_actions/actions?query=workflow%3Adocs
         :alt: Documentation Status
 
 .. image:: https://codecov.io/gh/francois-durand/f_durand_tests_github_actions/branch/master/graphs/badge.svg
