@@ -1,9 +1,6 @@
 name: "docs"
 
-on:
-  push:         
-    branches:
-      - master
+on: [push]
 
 jobs:
   build-and-deploy:
@@ -29,7 +26,7 @@ jobs:
         run: |
           sphinx-build -a -E -b html docs build
 
-      - name: "Deploy Github Pages"
+      - name: "Deploy Sphinx Doc on Github Pages"
         uses: JamesIves/github-pages-deploy-action@3.7.1
         if: github.ref == 'refs/heads/master'
         with:
