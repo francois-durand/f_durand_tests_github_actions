@@ -38,7 +38,7 @@ jobs:
 
       - name: "Build Sphinx Doc"
         run: |
-          make html
+          sphinx-build -b html docs build
 
       # 3. Déploiement sur les Github Pages
 
@@ -47,4 +47,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages     # <- Branche sur laquelle seront commités les fichiers
-          FOLDER: build/html/  # <- Dossier contenant notre documentation générée
+          FOLDER: build/       # <- Dossier contenant notre documentation générée
