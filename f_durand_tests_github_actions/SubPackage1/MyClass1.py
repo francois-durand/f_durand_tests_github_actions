@@ -64,6 +64,9 @@ class MyClass1:
     def __str__(self) -> str:
         return '(a, b) = %s, %s' % (self.a, self.b)
 
+    def not_implemented_method(self):
+        raise NotImplementedError
+
     def divide_a_by_c_and_add_d(self, c: float, d: float) -> float:
         """Divide `a` by something and add something else.
 
